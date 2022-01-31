@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+#Container{
+    display: flex;
+    height: 100ch;
+    width: 98vh;
+    padding: 0.5rem; 
+     margin: auto; 
+    justify-content: center;
+    align-items: center;
+}
+.Card{
+    position: inherit;
+    margin:  0;
+    height: 40ch;
+    width: 40vh;
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+    h1{
+        
+        margin-left: 1.2rem;
+        /* text-align:center; */
+        font-family: 'Big Shoulders Display';
+    }
+    p{
+        font-family:'Lexend_Deca';
+        margin: 1.2rem;
+        text-align: justify;
+        font-size: small;
+    }
+
+    a{
+        text-decoration: none;
+        background-color:  hsla(0, 0%, 100%, 0.75);
+        color: none;
+        margin-left: 1.2rem;
+        padding-top: 0.7rem;
+        display: block;
+        width: 10rem;
+        height: 2.5rem;
+        border-radius: 30px;
+        text-align: center;
+        padding-top: 1rem;
+        font-family: 'Big Shoulders Display';
+        color:  hsla(0, 0%, 100%, 0.75);
+    }
+#first{
+    background: hsl(31, 77%, 52%);
+    border-radius: 2% 0 0 2%;
+}
+
+#second{
+    background: hsl(184, 100%, 22%)
+}
+
+#third{
+    background: hsl(179, 100%, 13%);
+    border-radius: 0 2% 2% 0;
+}
+
+@media (max-width: 1440px) {
+   #Container{
+    flex-direction:row; 
+   }
+}
+@media (max-width: 375px){
+    #Container{
+        flex-direction:column; 
+    }
+}
